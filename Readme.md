@@ -5,7 +5,7 @@ This project uses a Long Short-Term Memory (LSTM) model, a type of recurrent neu
 ## Setup
 * Clone the repository to your local machine.
 * Install the required packages using pip:
-pip install pandas numpy sklearn tensorflow matplotlib
+pip install pandas numpy scikit-learn tensorflow matplotlib
 
 ## Data
 The model uses daily closing price data for Bitcoin. This data is stored in the file 'BTC-USD.csv'. <br> Each row in the file represents one day, and the 'Close' column is used for training and prediction.
